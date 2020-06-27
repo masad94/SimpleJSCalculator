@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Simple Calculator</h1>
+        <div>
+            <input type="text" name="input" id="input" disabled >
+            <input type="text" name="result" value=0 id="result" disabled dir="rtl">
+        </div>
+        <div >
+            <button onclick="clearInput()" class="firstLine">C</button>
+            <button onclick="backSpace()" class="firstLine">
+                <i class='fas fa-backspace'></i>
+            </button>
+        </div>
+        <div>
+            <button onclick="oneDivideByX()" class="buttons">1/x</button>
+            <button onclick="square()" class="buttons">x^2</button>
+            <button onclick="squareRoot()" class="buttons">2&#8730x</button>
+            <button onclick="getinput('/')" class="buttons">&#247</button>
+        </div>
+        <div>
+            <button onclick="getinput(7)" class="buttons">7</button>
+            <button onclick="getinput(8)" class="buttons">8</button>
+            <button onclick="getinput(9)" class="buttons">9</button>
+            <button onclick="getinput('*')" class="buttons">x</button>
+        </div>
+        <div>
+            <button onclick="getinput(4)" class="buttons">4</button>
+            <button onclick="getinput(5)" class="buttons">5</button>
+            <button onclick="getinput(6)" class="buttons">6</button>
+            <button onclick="getinput('-')" class="buttons">-</button>
+        </div>
+        <div>
+            <button onclick="getinput(1)" class="buttons">1</button>
+            <button onclick="getinput(2)" class="buttons">2</button>
+            <button onclick="getinput(3)" class="buttons">3</button>
+            <button onclick="getinput('+')" class="buttons">+</button>
+        </div>
+        
+        <div >
+            <button onclick="getinput(0)" class="firstLine">0</button>
+            <button onclick="calculateResult()" class="firstLine">=</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</html>

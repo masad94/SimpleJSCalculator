@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+}
+
+#input,#result{
+    width: 100%;
+    border:none;
+    border-left:1px solid gainsboro;
+    border-right:1px solid gainsboro;
+    color:white;
+}
+#result{
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+
+.firstLine{
+    width: 48%;
+    margin-left:4px;
+    height: 30px;
+    margin-top:5px;
+    margin-bottom:5px;
+    background-color: black;
+    color: white;
+}
+
+.buttons{
+    width: 83px;
+    margin-top:5px;
+    margin-left: 10px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
